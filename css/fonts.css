@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Regular'), local('TT-Norms-Regular'),
+        url('../fonts/TTNorms-Regular.woff2') format('woff2'),
+        url('../fonts/TTNorms-Regular.woff') format('woff'),
+        url('../fonts/TTNorms-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Medium'), local('TT-Norms-Medium'),
+        url('../fonts/TTNorms-Medium.woff2') format('woff2'),
+        url('../fonts/TTNorms-Medium.woff') format('woff'),
+        url('../fonts/TTNorms-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'TT Norms';
+    src: local('TT Norms Bold'), local('TT-Norms-Bold'),
+        url('../fonts/TTNorms-Bold.woff2') format('woff2'),
+        url('../fonts/TTNorms-Bold.woff') format('woff'),
+        url('../fonts/TTNorms-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Roman'), local('Helvetica-Neue-Roman'),
+        url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Bold'), local('Helvetica-Neue-Bold'),
+        url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
