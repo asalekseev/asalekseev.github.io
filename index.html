@@ -16,32 +16,32 @@
         <header class="header">
             <div class="container">
                 <div class="header1 row">
-                    <div class="city col-2 offset-1">
+                    <div class="city col-lg-2 offset-lg-1">
                         <div class="city_icon">
                             <img src="img\icons\iGeo.png" alt="">
                         </div>
                         <div class="city_title">Ваш город:</div>
                         <div class="city_changer">Москва</div>
                     </div>
-                    <div class="clients col-3 offset-1">
-                        <a href="" class="clients_link">Корпоративным клиентам</a>
-                        <img src="img/icons/more.png" alt="" class="clients_ico">
+                    <div class="top_menu col-lg-8">
+                        <div class="clients">
+                            <a href="" class="clients_link">Корпоративным клиентам</a>
+                            <img src="img/icons/more.png" alt="" class="clients_ico">
+                        </div>
+                        <div class="partners">
+                            <a href="" class="partners_link">Сайт для партнеров</a>
+                            <img src="img/icons/more.png" alt="" class="partners_ico">
+                        </div>
+                        <div class="phone">
+                            <a href="">+7(495)248-06-06</a>
+                        </div>
                     </div>
-                    <div class="partners col-2">
-                        <a href="" class="partners_link">Сайт для партнеров</a>
-                        <img src="img/icons/more.png" alt="" class="partners_ico">
-                    </div>
-                    <div class="phone col-2">
-                        <a href="">+7(495)248-06-06</a>
-                    </div>
-    
-    
                 </div>
                 <div class="header2 row">
                     <div class="col-1 offset-1 logo">
                         <img src="img/logo.png" alt="" class="logo_icon">
                     </div>
-                    <div class="col-5 menu">
+                    <div class="col-7 menu">
                         <nav>
                             <a href="" class="menu_link">Услуги и оплата</a>
                             <a href="" class="menu_link">Калькулятор</a>
@@ -49,7 +49,7 @@
                             <a href="" class="menu_link">Контакты</a>
                         </nav>
                     </div>
-                    <div class="col-4 button"><button>Мои заказы</button></div>
+                    <div class="col-2 button"><button>Мои заказы</button></div>
                 </div>
             </div>
         </header>
@@ -227,12 +227,19 @@
                 </div>
             </div>
         </section>
+
+
     </div>
     <div class="white_block">
         <section class="video2">
             <div class="container">
                 <div class="col-8 offset-2">
-                    <div class="video2_player"><img src="img/video_preview.png" alt=""></div>
+                    <div class="video2_player">
+                        <!-- <img src="img/video_preview.png" alt=""> -->
+                        <video width="960" height="537" poster="img/video_preview.png" onclick="this.play()">
+                            <source src="img/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
 
             </div>
@@ -267,7 +274,7 @@
                     <div class="col-4">
                         <img src="img/icons/iPeoples.png" alt="" class="advantage_item_ico">
                         <div class="advantage_item_header">Гибкие цены</div>
-                        <div class="advantage_item_subheader">asdasdasdasdads asd asd asd asd asd asd asd asd Производители из Италии, Франции
+                        <div class="advantage_item_subheader">Производители из Италии, Франции
                             и Китая </div>
                     </div>
                     <div class="col-4">
@@ -401,16 +408,129 @@
                     </div>
             </div>
         </section>
+
+        <section class="form2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 offset-1 form_group1">
+                            <div class="header">Поможем собрать индивидуальную систему</div>
+                            <div class="subheader">После отправки формы с вами свяжется наш менеджер для уточнения всех дополнительных деталей</div>
+                    </div>
+                    <div class="col-1 form_groupN"></div>
+                    <div class="col-4 form_group2">
+                        <form action="">
+                            <div class="form_group2_header">
+                                Выберите нужные элементы системы
+                            </div>
+                            <div class="form_group2_radiochecks">
+                                <div class="form_group2_radiochecks_check" id="1">
+                                    <div class="amigo_check">
+                                        <div class="amigo_check_circle">
+                                            <input type="hidden" name="radio1" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="amigo_text">
+                                        Проводной выключатель
+                                    </div>
+                                </div>
+                                <div class="form_group2_radiochecks_check" id="2">
+                                    <div class="amigo_check">
+                                        <div class="amigo_check_circle">
+                                            <input type="hidden" name="radio2" value="0"> 
+                                        </div>
+                                    </div>
+                                    <div class="amigo_text">
+                                        Радиоустройство
+                                    </div>
+                                </div>
+                                <div class="form_group2_radiochecks_check" id="3">
+                                    <div class="amigo_check">
+                                        <div class="amigo_check_circle">
+                                            <input type="hidden" name="radio3" value="0"> 
+                                        </div>
+                                    </div>
+                                    <div class="amigo_text">
+                                        Wi-Fi Box
+                                    </div>
+                                </div>
+                            </div>
+
+                            <input type="text" class="form_group2_name" placeholder="Как к Вам обращаться ?">
+                            <input type="text" class="form_group2_phone" placeholder="Номер телефона">
+                            <button class="form_group2_send">Отправить сообщение</button>
+                            <div class="form_group2_check">
+                                <input type="checkbox" id="check2"> <label for="check2">Даю согласие на обработку персональных данных</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </div>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h3>О нас</h3>
+                    <ul>
+                        <li><a href="">О компании</a></li>
+                        <li><a href="">Наши представительства</a></li>
+                        <li><a href="">Корпоративный институт</a></li>
+                        <li><a href="">События</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>Свяжитесь с нами</h3>
+                    <a href="">+7 495 787-97-87</a><br/><br/>
+                    <button>Свяжитесь с нами</button>
+                </div>
 
+                <div class="col-3">
+                    <h3>Инструменты & Вдохновение</h3>
+                    <ul>
+                        <li><a href="">Галерея</a></li>
+                        <li><a href="">Книга продавца, каталоги и бланки</a></li>
+                        <li><a href="">Презентационный материал</a></li>
+                        <li><a href="">Новинки</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h3>Полезная информация</h3>
+                    <ul>
+                        <li><a href="">Сертификация</a></li>
+                        <li><a href="">Области применения жалюзи</a></li>
+                        <li><a href="">Конденсат, дети, стирка</a></li>
+                        <li><a href="">Как стать дилером</a></li>
+                    </ul>
+                    <button>Документы</button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href=""><img src="img/icons/f_vk.png" alt=""></a>
+                    <a href=""><img src="img/icons/f_fb.png" alt=""></a>
+                    <a href=""><img src="img/icons/f_ig.png" alt=""></a>
+                    <a href=""><img src="img/icons/f_pt.png" alt=""></a>
+                    <a href=""><img src="img/icons/f_yt.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p>
+            @ 2021 Amigo group. Все права защищены.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eveniet odio veritatis nam quis, ex eius porro voluptate minima voluptas perferendis repudiandae ut laudantium dolorem dolore corrupti incidunt illum. Commodi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse fugiat maiores alias nam ipsum? In, tempora sequi aliquid exercitationem incidunt fuga quisquam sit pariatur saepe ducimus veritatis. Consequuntur, itaque adipisci. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos illo corrupti iure veniam natus, delectus voluptate beatae cumque? Rem qui aspernatur cupiditate? Sunt porro id eos nisi voluptatibus soluta ipsam.
+        </p>
+        
+        
+    </footer>
 
     <script src='js/script.js'></script>
 </body>
 </html>
 
-<!-- 
-1 Выровнять блоки - отцентрировать по горизонтали и вертикали при увеличении выделенного 
-2 не забыть про тап - при тапе блок должен подсвечиваться, остальные скрываться подсвеченные на мобильных
-3 выровнять элементы внутри блока (цена - к низу)
--->
